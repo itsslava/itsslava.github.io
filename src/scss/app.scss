@@ -1,0 +1,15 @@
+@import './base/null';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #1e2c49;
+
+  background-image: url('../assets/bw-pattern.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: hidden;
+  &.hovered {
+    background-image: url('../assets/colored-pattern.png');
+  }
+}
