@@ -13,3 +13,12 @@ body {
     background-image: url('../assets/colored-pattern.png');
   }
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  height: 100vh;
+}
